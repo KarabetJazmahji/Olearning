@@ -38,7 +38,6 @@ onCommentSubmit = (e) =>{
                 .then(res=>{
                 if(res.status === 200){
                     this.setState({successfullyAdded: true})
-                    window.location.reload(false);
                 }
                 else{
                     return;
