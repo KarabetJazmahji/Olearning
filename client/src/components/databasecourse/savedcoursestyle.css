@@ -1,0 +1,53 @@
+.SavedCourses{
+    width: 900px;
+    max-height: 500px;
+    margin: 20px auto;
+}
+
+.SavedCourses iframe{
+    width: 100%;
+    height: 500px;
+}
+
+.CommentsContainer{
+    max-width: 90%;
+    margin: 50px auto;
+}
+
+.Comment{
+    margin: 30px 0px 30px 40px;
+    border-bottom: 0.3px dotted black;
+    padding-bottom: 10px;
+}
+
+.Content{
+    width: 50%;
+}
+
+.Author{
+    display: inline-block;
+}
+
+.Date{
+    margin-left: 30px;
+    display: inline;
+}
+
+
+@media only screen and (max-width: 1000px){
+    .SavedCourses{
+        width: 80%;
+        margin: 20px auto;
+    }   
+
+    .SavedCourses iframe{
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+    .CommentsContainer {
+        max-width: 1000px;
+        margin: 50px auto;
+    }
+} 

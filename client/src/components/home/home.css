@@ -1,0 +1,109 @@
+body{
+    font-family: 'Exo', sans-serif;
+}
+
+.home-image{
+    margin-top: 30px;
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+
+.home-page{
+    display: flex;
+    position: relative;
+}
+
+.home-desc{
+    position: absolute;
+    top: 50px;
+    right: 250px;
+}
+
+.home-page div h1{
+    text-align: center;
+    color: black;
+}
+
+.home-page div p{
+    text-align: center;
+    color: black;
+    font-size: 1.4rem;
+
+}
+
+
+.search-bar{
+    width: 300px;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 5px;
+    border: 0.5px solid #3ADFA0;
+}
+
+.search-bar input{
+    padding: 12px;
+    border: none;
+    font-size: 1.2em;
+}
+
+.search-bar i{
+    font-size: 1.2em;
+    padding: 13px;
+    color: #3ADFA0;
+}
+
+.search-bar input:focus{
+    outline: none;
+}
+
+
+@media only screen and (min-width: 1300px){
+    .home-page{
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 1130px) and (min-width: 768px){
+    .home-image{
+        width: 400px;
+        margin-right: 0px;
+    }
+
+    .home-desc{
+        right: 50px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .home-page{
+        display: block;
+    }
+
+    .home-image{
+        display: none;
+    }
+
+    .home-desc{
+        position: static;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .home-desc{
+        margin: 10px 20px 10px;
+    }
+
+    .search-bar{
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .search-bar input{
+        padding: 5px;
+    }
+}
+
+

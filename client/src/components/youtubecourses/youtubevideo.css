@@ -1,0 +1,18 @@
+.video-item{
+    display: flex !important;
+    align-items: center !important;
+    cursor: pointer;
+}
+
+.video-item.item img{
+    max-width: 180px;
+}
+
+.video-list{
+    margin-top: 50px !important;
+}
+
+.CoursePlayer{
+    margin-top: 50px !important;
+    margin-left: 50px !important;
+}

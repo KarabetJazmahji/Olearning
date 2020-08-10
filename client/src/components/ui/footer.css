@@ -1,0 +1,39 @@
+.footer-container{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: lightgray;
+    height: 50px;
+}
+
+.footer-container img{
+    width: 200px;
+    height: 50px;
+}
+
+.footer-description{
+    float: left;
+    height: 50px;
+}
+
+.footer-description p{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .footer-container{
+        position: static;
+    }
+
+    .footer-container img{
+        display: none;
+    }
+
+    .footer-description p{
+        margin-top: 50px;
+        line-height: 1.6em;
+    }
+}
