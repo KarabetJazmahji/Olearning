@@ -11,7 +11,7 @@ import YoutubeList from '../youtubecourses/YoutubeList';
 import CoursePlayer from '../youtubecourses/CoursePlayer';
 
 
-const KEY = "AIzaSyDJ8HL36g9TXHS95GtnldmvgmQeKQbOj9I";   // Youtube API key  
+const KEY = "AIzaSyAfny7_9UE6QAaoSsXuZK96ZSytsVQSTaM";   // Youtube API key  
 
 class successfullLoged extends Component{
     state = {categorie: "Development",
